@@ -5,9 +5,9 @@ body {
     padding: 0;
     background-image: url(../../images/bg-pattern-top.svg),
         url(../../images/bg-pattern-bottom.svg);
-    background-position: -50vw -50vh, 50vw 50vh;
+    background-position:  right 52vw bottom 35vh, left 48vw top 52vh;
     background-attachment: fixed, fixed;
-    background-size: 100vw 100vh, 100vw 100vh;
+
     background-repeat: no-repeat, no-repeat;
     background-color: hsl(185, 75%, 39%);
 }
@@ -43,10 +43,14 @@ img {
     color: hsl(0, 0%, 59%);
     font-weight: 400;
 }
-
+h1 {
+    margin: 0;
+    font-size:initial;
+}
 p {
     margin: 0;
 }
+
 
 #london {
 
